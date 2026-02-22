@@ -1,0 +1,54 @@
+	.body1 {
+            background-color:white;
+            text-align: center;
+        }
+        form {
+            display: inline-block;
+        }
+       .myBoarder {
+            color:white;
+            background-color:#750000; 
+            padding: 10px;
+            font-size:20px;
+            margin: auto;
+            width: 20%;
+        } 
+ 	.formLBL {
+        color:white;
+        }
+        .txtBOX1 {
+        /*padding-left: 100px;*/
+	color: white;
+        }
+	.bStyle {
+        height:4rem;
+        width:8rem;
+        font-weight:bold !important;
+        font-style:italic;
+        }      
+	.bCol {
+        background-color:  #000075 !important;
+        /* color: black !important; */
+        }      
+	.bCol2 {
+        background-color: #007575  !important;
+   /*     color: black !important; */
+        }      
+
+.body2 {
+background-color:black;
+}
+.
+
+h1,h2,h3,h4,h5,p,tr,td { 
+color: white;
+} 
+
+.midT {
+margin-top:2em;
+margin-left:5em;
+}
+
+.txtEnsCol {
+color: white;
+}

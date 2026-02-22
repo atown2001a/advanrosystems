@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/assets/styles.css" rel="stylesheet">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+<script src="assets/script.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2020.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">	
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2024.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2025.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-vivid.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Staff</title>
+</head>
+<body class="body2">
+
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color:maroon;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="staff.html">Staff</a>
+        </li>
+      </ul>
+  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+   <li class="nav-item">
+  <a class="nav-link" href="logins.html">Logins</a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+<br><br>
+<div class="w3-container w3-animate-left w3-center">
+<h1 class="txtEnsCol" id="chgHDR" ondblclick="chgHDR()">Staff</h1>
+    <h2 class="txtEnsCol" id="chTc" ondblclick="chgTXT()">Staff List</h2>
+<br><br></div></div>
+
+
+
+<div class="w3-section w3-2019-vanilla-custard" style="width:50%">
+
+  <button onclick="aCCa('acca1')" class="w3-button w3-block w3-2025-lyons-blue">Staff</button>
+  <div id="acca1" class="w3-hide w3-container"><h3>Per Department</h3>
+     <div class="w3-container">
+	  <div class="w3-bar w3-black">
+		<button class="w3-bar-item w3-button tablink w3-crimson" onclick="openTabby(event,'IT')">IT</button>
+		<button class="w3-bar-item w3-button tablink" onclick="openTabby(event,'Management')">Management</button>    
+		<button class="w3-bar-item w3-button tablink" onclick="openTabby(event,'Sales')">Sales</button>
+    		<button class="w3-bar-item w3-button tablink" onclick="openTabby(event,'Office')">Office Staff</button>
+  	  </div>
+<!--
+2024
+
+w3-2024-desert-flower
+w3-2024-chambray-blue
+w3-2024-pastel-lilac
+w3-2024-lemon-drop
+w3-2024-mushroom
+w3-2024-morthern-droplet
+w3-2024-moonstruck
+w3-2024-winter-sky
+
+2021
+
+w3-2021-marigold
+w3-2021-cerulean
+w3-2021-illuminating
+w3-2021-pale-rosette
+w3-2021-desert-mist
+w3-2021-buttercream
+w3-2021-green-ash
+
+2020 
+
+w3-2020-biscay-green
+w3-2020-saffron
+w3-2020-green-sheen
+w3-2020-rose-tan
+w3-2020-peach-nougat
+w3-2020-coral-pink
+
+2019
+
+w3-2019-aspen-gold
+w3-2019-mango-mojito
+w3-2019-soybean
+w3-2019-sweet-lilac
+w3-2019-crème-de-pêche
+
+2018
+
+w3-2018-warm-sand
+w3-2018-harbor-mist
+w3-2018-lime-punch
+w3-2018-almost-mauve
+w3-2018-blooming-dahlia
+w3-2018-little-boy-blue
+w3-2018-meadowlark
+w3-2018-quiet-gray
+w3-2018-almond-buff
+w3-2018-tofu
+w3-2018-limelight
+w3-2018-crocus-petal
+w3-2018-ceylon-yellow
+
+2017
+
+w3-2017-hazelnut
+w3-2017-pale-dogwood
+w3-2017-primrose-yellow
+w3-2017-ballet-slipper
+w3-2017-island-paradise
+ -->
+
+<br><div class="w3-container">  
+ <div id="IT" class="w3-container w3-border taba w3-2018-little-boy-blue">
+  <table class="w3-table-all w3-hoverable">
+    <thead>
+      <tr class="w3-highway-blue">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+ 	<tr class="w3-hover-black">
+      <td>Ahmed</td>
+      <td>Al-Meleh</td>
+       <td>Director of IT</td>
+    </tr>
+ 	<tr class="w3-hover-black">
+      <td>Max</td>
+      <td>Boo</td>
+       <td>IT Technician</td>
+    </tr>
+ 	<tr class="w3-hover-black">
+      <td>Ben</td>
+      <td>Langley</td>
+       <td>IT Technician</td>
+    </tr>
+  </table><br><br>
+</div>
+  <div id="Management" class="w3-container w3-border taba w3-2018-warm-sand" style="display:none">
+   <table class="w3-table-all w3-hoverable">
+    <thead>
+      <tr class="w3-crimson">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Title</th>
+      </tr>
+    </thead>
+ 	<tr class="w3-hover-black">
+      <td>Ahmed</td>
+      <td>Al-Meleh</td>
+       <td>Founder and Director</td>
+    </tr>
+</table><br><br>
+</div>
+  	 <div id="Sales" class="w3-container w3-border taba w3-2018-blooming-dahlia" style="display:none">
+	   <table class="w3-table-all w3-hoverable">
+	   <thead>
+     	   <tr class="w3-vivid-reddish-purple">
+       	     <th>First Name</th>
+       	     <th>Last Name</th>
+             <th>Title</th>
+     	  </tr>
+   	  </thead>
+ 	     <tr class="w3-hover-black">
+               <td>Libby</td>
+      	       <td></td>
+      	       <td>Sales Assistant</td>
+             </tr>
+	   </table>
+	  <br><br>
+  	 </div>
+
+     <div id="Office" class="w3-container w3-border taba w3-2018-harbor-mist" style="display:none">
+       <table class="w3-table-all w3-hoverable">
+       <thead>
+	    <tr class="w3-highway-green">
+	      <th>First Name</th>
+	      <th>Last Name</th>
+	      <th>Title</th>
+	    </tr>
+	    </thead>
+	    <tr class="w3-hover-black">
+	       <td>Kevin</td>
+	      <td>Lynch</td>
+	      <td>Office Assistant</td>
+	    </tr>
+</table>
+<br><br>
+     </div>
+</div>
+<br><br>
+<script>
+function chgHDR() {
+  document.getElementById("chgHDR").style.color = "aqua";
+  document.getElementById("chgHDR").style.fontWeight = "bold";
+  document.getElementById("chgHDR").style.fontSize = "3.75em";
+}
+
+function chgTXT() {
+  document.getElementById("chTc").style.color = "white";
+  document.getElementById("chTc").style.fontWeight = "bold";
+  document.getElementById("chTc").style.fontStyle = "italic";
+}
+
+</script>
+</body>
+</html>
